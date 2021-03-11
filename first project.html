@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first project</title>
+    <link rel="stylesheet" href="first project.css">
+    <script src="first project.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+</head>
+<body  onload="load_tasks()">
+<img class="title" src="title.png" alt="my task board">
+<div class="note_book"> 
+    <form>
+        <div class="input">Task : <input type="text" id=new_task name=tesk required></div>
+        <div class="input">Due Date: <input type="date" id=due_date name=due_date required></div>
+        <div class="input">Time: <input type="time" id=time name=time required></div>
+
+        <input type="submit" onclick="save_task()">
+        <input type="reset">
+
+    </form>
+</div>
+
+
+
+<div id="notes_container">
+</div>
+
+
+</body>
+</html> 

@@ -1,0 +1,87 @@
+body {
+  background-image: url("tile.jpg");
+}
+
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.note_book {
+  background-image: url("formbg.jpg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 180px;
+}
+
+.input {
+  padding: 10px;
+}
+
+.note {
+  background-image: url("notebg.png");
+  padding-bottom: 80px;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-repeat: no-repeat;
+  float: left;
+  width: 180px;
+  height: 400px;
+  margin-left: 200px;
+  margin-right: auto;
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+  animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.note button {
+  background-color: transparent;
+  border: none;
+  margin-left: 100px;
+  display: none;
+}
+
+.note:hover button {
+  display: inline;
+}
+
+.task {
+  margin-top: 40px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: none;
+  background: transparent;
+}
+
+.date_and_time {
+  margin-top: 60px;
+}
+/*# sourceMappingURL=first project.css.map */
